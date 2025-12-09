@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        div {
+            margin: 35px 550px 30px 550px;
+            border: 2px solid black;
+            height: 700px;
+            width: 600px;
+            background-color: rgb(247, 226, 247);
+        }
+
+        div u h1 {
+            text-align: center;
+        }
+
+        form h3 {
+            padding-left: 50px;
+        }
+
+        div .box {
+            margin-left: 30px;
+        }
+
+        div label {
+            margin: 0px 0px 0px 150px;
+        }
+
+        .size {
+            height: 35px;
+            width: 65px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div> <u>
+            <h1>Registration Form</h1>
+        </u>
+        <form>
+            <h3>First Name    <input type="text" class="box" placeholder="Enter your first name" required></h3>
+            <h3>Last Name     <input type="text" class="box" placeholder="Enter your last name" required></h3>
+            <h3>Nickname      <input type="text" class="box" placeholder="Enter your nickname" required></h3>
+            <h3>email         <input type="email" class="box" placeholder="Enter your email" required></h3>
+            <h3>Password      <input type="password" class="box" placeholder="Enter your password" required></h3>
+            <h3>Date of Birth <input type="date" class="box" required></h3>
+            <h3>Gender        <input name="gender" class="box" type="radio" required>Female <input name="gender"
+                    type="radio">Male</h3>
+            <h3>Mobile Number <input type="tel" placeholder="Enter mobile number" required></h3>
+            <h3>Address <textarea name="message" class="box" id="message" rows="10" cols="40"
+                    placeholder="Write your message.." required></textarea></h3> <label><button
+                    class="size">Submit</button> <input class="size" type="reset"></label>
+        </form>
+    </div>
+</body>
+
+</html>
